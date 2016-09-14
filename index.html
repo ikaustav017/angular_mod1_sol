@@ -23,7 +23,20 @@
              <button class="btn btn-default" ng-click="displayAptMessage()">Check If Too Much</button>
          </div>
          <div class="form-group message" >
-            {{diplayMessage}}
+
+
+           <span ng-style="myStyle">   {{diplayMessage}}</span>
+
+
+
+           </span>
+         </br>
+         Empty spaces (,,,) or just spaces (,&nbsp&nbsp&nbsp,&nbsp&nbsp&nbsp&nbsp,) between commas are not treated as items!
+           <!--input id="display-menu" type="text" ng-class="myClass"
+           readonly="true"
+           value=" {{diplayMessage}}"
+
+           class="form-control">
            <!-- Your message can go here. -->
          </div>
    </div>
